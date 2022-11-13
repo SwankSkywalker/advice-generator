@@ -6,4 +6,4 @@ This advice generator uses the Advice Slip API to generate random advice to the 
 
 Hoping to increase and practice my API implementation and get a better understanding of how they work
 
-## Tojours vers l'avant -->
+## Toujours vers l'avant -->
