@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+
+:root {
+    --desktop-width: 1440px;
+    --mobile-width: 375px
+    --quote-color: hsl(193, 38%, 86%);
+    --advice-green: hsl(150, 100%, 66%);
+    --page-bgc: hsl(217, 19%, 24%);
+    --card-color: hsl(217, 19%, 38%);
+    --shadow-color: hsl(218, 23%, 16%);
+    --main-font: 'Manrope', sans-serif;
+    --quote-size: 28px;
+}
