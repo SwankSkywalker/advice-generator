@@ -47,8 +47,6 @@
             //         console.log(data)
             //     });
             
-const rollDice = document.querySelector('.dice');
-            
 async function genNewAdvice() {
     const requestURL = 'https://api.adviceslip.com/advice';
     const request = new Request(requestURL);
@@ -62,12 +60,12 @@ async function genNewAdvice() {
 
 function newAdviceContent(advice) {
     const id = document.querySelector('.adv-num');
-    const quote = document.querySelector('.quote');
-
-    console.log(advice.slip);    
+    const quote = document.querySelector('.quote');   
 
     id.textContent = `ADVICE #${advice.slip.id}`;
     quote.innerHTML = `"${advice.slip.advice}"`;
 }
 
-rollDice.addEventListener('click', genNewAdvice());
+genNewAdvice();
+
+document.getElementById("dice").addEventListener("click", genNewAdvice);
